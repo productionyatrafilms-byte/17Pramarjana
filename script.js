@@ -12,9 +12,8 @@ const volIcon = document.getElementById("volIcon");
 // const settingsBtn = document.getElementById("settingsBtn");
 // const qualityMenu = document.getElementById("qualityMenu");
 // const qualityOptions = document.querySelectorAll(".quality-option");
-// https://youtu.be/182JTFErO_o?si=XtH0-xXd03I-_EmS
-
-// Load YouTube API
+// https://youtu.be/LbQEF5OfKHo?si=mE9GWcRyd1SZk8Mu
+// // Load YouTube API
 const tag = document.createElement("script");
 tag.src = "https://www.youtube.com/iframe_api";
 const firstScriptTag = document.getElementsByTagName("script")[0];
@@ -24,7 +23,7 @@ function onYouTubeIframeAPIReady() {
   player = new YT.Player("ytPlayer", {
     height: "100%",
     width: "100%",
-    videoId: "XT1lIdTltiI",
+    videoId: "LbQEF5OfKHo",
     playerVars: {
       autoplay: 1,
       controls: 0,
@@ -183,9 +182,9 @@ function updateButtonStyles(selectedLang) {
 function updateText(language) {
   const h1 = document.querySelector("nav h1");
   const fallbacks = {
-    English: "Aarti",
-    Hindi: "आरती",
-    Gujrati: "આરતી",
+    English: "17 Pramarjana",
+    Hindi: "सत्रह प्रमार्जन",
+    Gujrati: "સત્તર પ્રમાર્જના",
   };
 
   fetch("new1/json/data.json")
