@@ -183,8 +183,8 @@ function updateText(language) {
   const h1 = document.querySelector("nav h1");
   const fallbacks = {
     English: "17 Pramarjana",
-    Hindi: "सत्रह प्रमार्जन",
-    Gujrati: "સત્તર પ્રમાર્જના",
+    Hindi: "१७ प्रमार्जन",
+    Gujrati: "૧૭ પ્રમાર્જના",
   };
 
   fetch("new1/json/data.json")
